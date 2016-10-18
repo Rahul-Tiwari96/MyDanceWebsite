@@ -1,0 +1,123 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   body{
+       -webkit-font-smoothing:antialised;
+       text-rendering: optimizeLegibility;
+   }
+.well.page-header{
+    margin top=5px;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchinput{
+       width:auto;
+   }
+   .navbar-brand
+   {
+       padding: 13px 15px;
+   }
+
+   .form-control{
+       width: 200px;
+   }
+   footer{
+       background: #333;
+       color: #eee;
+       font-size: 11px;
+       padding: 30px;
+     background-image: "images/footer.jpg";
+   }
+   ul.unstyled{
+       list-style: none;
+       padding: 0px;
+   }
+   .extra{
+       background-color: inherit;
+   	 height: 905px;
+      transform: translate3d(0px, 0px, 0px);
+   }
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#mycarousel{
+    margin-top: 60px;
+}
+.carousel-caption{
+    font-size: 24px;
+}
+#mycarousel.item{
+    height=400px;
+}
+.carousel-caption h4{
+    font-size: 32px;
+}
+#new{
+    background: url("../../images/bg1.jpg");
+}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.well{
+    margin-top: 20px 0px;
+}
+#uni{
+    background: url("../../images/bg1.jpg");
+
+}
+
+#features img{
+    width: 570px;
+    height: 300px;
+}
+.featuresImages{
+    width: 570px;
+    height: 300px;
+    margin: 20px;
+}
+#feat img{
+    width:250px;
+    height:200px;
+    margin: 5px;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
