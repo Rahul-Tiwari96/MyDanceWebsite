@@ -22,6 +22,7 @@ Notes:	 Hand coded for Udemy.com
    body{
        -webkit-font-smoothing:antialised;
        text-rendering: optimizeLegibility;
+      font-family: 'Roboto', sans-serif;
    }
 .well.page-header{
     margin top=5px;
@@ -58,6 +59,8 @@ Notes:	 Hand coded for Udemy.com
    	 height: 905px;
       transform: translate3d(0px, 0px, 0px);
    }
+
+
 
 /* --------------------------------------
    Carousel
